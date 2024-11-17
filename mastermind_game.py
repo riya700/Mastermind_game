@@ -4,7 +4,7 @@ import random
 c=1
 flag=0
 while(c<=2):
-    num = random.randrange(1000, 10000)#5672
+    num = random.randrange(1000, 10000)
     print(num)
     roun=0
     count=0
@@ -43,9 +43,9 @@ while(c<=2):
     if flag==1:
         break
 if(winner[0]<winner[1]):
-    print(winner[0], "is the winner")
+    print("player 1 is the winner")
 elif(winner[0]==winner[1]):
     print("Game drawn!!")
 else:
-    print(winner[1], "is the winner")
+    print("player 2 is the winner")
 
